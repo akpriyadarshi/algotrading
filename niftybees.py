@@ -74,5 +74,5 @@ def place_order(token,symbol,quantity,buy_sell,price):
 
 
 
-
+print("pnl is: ", obj.position()['data'][0]['pnl'])
 #place_order('10576','NIFTYBEES-EQ',1,'BUY',0)
