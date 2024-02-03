@@ -1,0 +1,10 @@
+- How to add indicator in python 
+  - Does any broker API provides indicators?
+  - pandas.ta (https://github.com/twopirllc/pandas-ta/tree/main)
+  - Can we calculate indicator values matheatically? 
+
+#####################################################################################################################################
+
+
+- thirty_days_ago = datetime.datetime.now() - timedelta(days=2) -->> yaha bug ho sakta hai holiday ke time
+- SL aur target kitna rakhna hai??
