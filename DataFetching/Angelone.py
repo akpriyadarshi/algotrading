@@ -87,7 +87,7 @@ for i in range(0,75):
         ## For now we are treating one minute closing as live data for triggering trade, logic would be changed for realtime data
         for j in range(0,5):
             if df2["Close"][count+j] < df["Low"][i]:
-                print("Selling Triggered at", df2["Close"][count])
+                print("Selling Triggered at", df2["Close"][count+j])
                 break
 
     dt = dt+timedelta(minutes=5)
